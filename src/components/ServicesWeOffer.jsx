@@ -5,7 +5,7 @@ import seo from '../images/seo.png';
 import branding from '../images/branding.png';
 import softwareDev from '../images/softwareDev.png';
 import visualProd from '../images/visualProd.png';
-import creativeDes from '../images/CreativeDes.png';
+import creativeDes from '../images/creativeDes.png';
 
 const ServicesWeOffer = () => {
   return (
