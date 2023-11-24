@@ -1,0 +1,115 @@
+.services-we-offer{
+    /* background-color: rgb(201, 111, 111); */
+    
+}
+.services-offer-types{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(292px,1fr));
+ 
+   
+gap: 45px;
+    
+   
+}
+.services-offer-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0px;
+}
+.services-offer-title{
+    color: #303032;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(28px, 5vw, 36px);
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.services-offer-description{
+    color: #000;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(16px, 5vw, 24px);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.services-offer-type{
+/* background-color: rgb(150, 244, 244); */
+
+
+margin-top: 5px;
+
+width: 100%;
+height: 420px;
+
+
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+.services-img-section{
+    background: #F1F1F1;
+height: 50%;
+}
+.services-content-section{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #FCFCFC;
+}
+.services-learn-more{
+    display: flex;
+    flex-direction: row;
+
+
+    color: #FF7732;
+    font-family: 'Manrope', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: -0.14px;
+gap: 6px;
+}
+.services-title{
+    color: #303032;
+
+
+font-size: clamp(26px,3vw,28px);
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.services-des{
+    color: #000;
+
+    font-family: 'Manrope', sans-serif;
+font-size: clamp(16px,3vw,18px);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 12000px) {
+    .services-we-offer{
+        /* background-color: rgb(214, 129, 129); */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 1200px;
+    }
+}
+/* @media only screen and (min-width: 0px) and (max-width: 430px) {
+  .services-offer-type{
+    width: 300px;
+height: 350px;
+  }
+  .services-content-section{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+} */

@@ -1,10 +1,13 @@
 import React from 'react';
 import '../styles/Home.css';
 import fluidGlass from '../images/fluidGlass.png'
+import AboutInfideck from '../components/AboutInfideck';
+import ServicesWeOffer from '../components/ServicesWeOffer';
 
 const Home = () => {
   return (
       <div className='home-page'>
+
           <div className='home-intro-section'>
               <div className='intro-content-space'>
                   <div className='intro-content-texts'>
@@ -17,8 +20,8 @@ const Home = () => {
 
                       <div className='intro-content-slogans'>
                           <div>Design.</div>
-                          <div>Build.</div>
-                          <div>Market.</div>
+                          <div>Promote.</div>
+                          <div>Evolve.</div>
                       </div>
 
                       <div className='intro-content-learnmore'>
@@ -32,10 +35,24 @@ const Home = () => {
 
                   </div>
                   <div className='intro-content-image'>
-                      <img style={{ backgroundSize: 'contain', width: '100%', height: '100%' }} src={fluidGlass} />
+                      <img style={{ backgroundSize: 'contain', width: '100%', height: 'auto' }} src={fluidGlass} />
                   </div>
               </div>
           </div>
+
+
+    
+   <div className='about-our-infideck'>
+   <AboutInfideck/>
+   </div>
+
+   <div className='services-offer-section'>
+    <ServicesWeOffer/>
+   </div>
+      
+    
+
+
       </div>
   )
 }

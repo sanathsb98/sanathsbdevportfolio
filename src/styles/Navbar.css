@@ -1,17 +1,35 @@
 .navabar {
     background-color: rgb(255, 255, 255);
-    padding: 8px 144px;
+    padding: 8px 134px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+   
     align-items: center;
     width: 100%;
     height: 8vh;
+    position: fixed;
+    top: 0;
 }
-
+.navbar-contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: antiquewhite; */
+}
+.infideck-logo{
+    width: 110.562px;
+height: 48.167px;
+flex-shrink: 0;
+margin-top: 6px;
+}
 .nav-infideck-btns {
     display: flex;
-    gap: 92px;
+width: 50%;
+    justify-content: space-between;
+
+    
 }
 
 .nav-lets-talk {
@@ -19,7 +37,7 @@
     padding: 6px 24px;
 
     color: #FFF;
-    font-family: Be Vietnam Pro;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -30,7 +48,7 @@
 
 .nav-btn {
     color: #303032;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -38,3 +56,39 @@
     /* 150% */
     letter-spacing: -0.14px;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 12000px) {
+
+    .navbar-contents{
+    width: 1200px;
+ 
+    }
+    .navabar {
+        padding: 8px 80px;
+        /* background-color: #cdcdcd; */
+     
+    }
+  }
+  @media only screen and (min-width: 0px) and (max-width: 1200px) {
+
+   
+    .navabar {
+        padding: 8px 20px;
+        /* background-color: #cdcdcd; */
+    }
+  }
+  /* below ipad mini responsiveness everything is hidden */
+  @media only screen and (min-width: 0px) and (max-width: 765px) {
+
+   
+    .nav-btn, .nav-lets-talk {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 0px) and (max-width: 330px) {
+    .navabar {
+        padding: 8px 2px;
+        /* background-color: #cdcdcd; */
+     
+    }
+  }
