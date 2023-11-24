@@ -50,6 +50,28 @@ font-weight: 500;
 /* line-height: 100px; */
 
 }
+.blur-circle-one {
+    position: absolute;
+    width: 623px;
+    height: 623px;
+    flex-shrink: 0;
+    border-radius: 623px;
+    background: #5F92FF;
+    filter: blur(136px);
+    transform: translate(0%, -30%);
+}
+
+.blur-circle-two {
+    transform: translate(60%, -30%);
+    position: absolute;
+    width: 654px;
+    height: 654px;
+    flex-shrink: 0;
+    border-radius: 654px;
+    background: #FF7732;
+
+    filter: blur(166px);
+}
 .intro-content-image {
     width: 50%;
 }

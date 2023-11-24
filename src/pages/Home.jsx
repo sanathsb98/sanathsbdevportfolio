@@ -10,6 +10,10 @@ const Home = () => {
 
           <div className='home-intro-section'>
               <div className='intro-content-space'>
+
+                {/* <div className='blur-circle-one'></div>
+                <div className='blur-circle-two'></div> */}
+
                   <div className='intro-content-texts'>
                      
                       <div className='intro-texts'>
