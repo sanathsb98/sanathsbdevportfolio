@@ -13,23 +13,23 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 10px 0px 30px 0px;
+    padding: 10px 0px 35px 0px;
     color: #303032;
 }
 .infideck-work{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(rgb(55, 80, 131) 50%, #FF7732);
     /* background-color: #6a6a6a; */
     width: 100%;
-    padding: 34px ;
+    padding: 25px ;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     gap: 20px;
+     gap: 28px;
 }
 .infi-work-title{
     color: #FFF;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: clamp(28px, 5vw, 46px);
+    font-size: clamp(28px, 5vw, 36px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -37,7 +37,7 @@
 .infi-work-des{
     color: #FFF;
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(16px, 5vw, 26px);
+    font-size: clamp(16px, 5vw, 22px);
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 39px */
