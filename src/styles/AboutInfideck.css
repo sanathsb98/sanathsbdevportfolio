@@ -17,33 +17,43 @@
     color: #303032;
 }
 .infideck-work{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(rgb(55, 80, 131) 50%, #FF7732);
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(rgb(55, 80, 131) 50%, #FF7732); */
     /* background-color: #6a6a6a; */
+    background: #FFF6F2;
     width: 100%;
     padding: 25px ;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
      gap: 28px;
+     background-image: url(../images/evolveline.png);
+  
 }
 .infi-work-title{
-    color: #FFF;
+    color: #FF7732;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: clamp(28px, 5vw, 36px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
+.infititle{
+    color: #256AB3;
+}
+
 .infi-work-des{
-    color: #FFF;
+    color: #FF7732;
     font-family: 'Manrope', sans-serif;
     font-size: clamp(16px, 5vw, 22px);
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 39px */
 }
+.infides{
+    color: #256AB3;
+}
 .infi-work-learnmore{
-    color: #FFF;
+    color: #FF7732;
 
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
@@ -55,6 +65,9 @@
     display: flex;
     gap: 6px;
     
+}
+.infilearnmore{
+    color: #256AB3;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 12000px) {
