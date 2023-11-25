@@ -16,3 +16,140 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes moveInZigzag {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveVerticalZigzag {
+  0%, 100% {
+    transform: translateY(-50%);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+}
+
+@keyframes moveHorizontalZigzag {
+  0% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+
+  25% {
+    transform: translateX(50%) translateY(10%);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+
+  75% {
+    transform: translateX(50%) translateY(10%);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+}
+@keyframes floatInAir {
+  0% {
+    transform: translate(-50%, -10%);
+  }
+
+  25% {
+    transform: translate(50%, 10%);
+  }
+
+  50% {
+    transform: translate(-50%, -10%);
+  }
+
+  75% {
+    transform: translate(50%, 10%);
+  }
+
+  100% {
+    transform: translate(-50%, -10%);
+  }
+}
+
+
+
+.gradient-bg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.svg {
+  display: none;
+}
+
+.gradients-container {
+
+  filter: url(#goo) blur(40px);
+  
+  position: absolute;
+  z-index: 100;
+}
+
+.g1 {
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 50%) no-repeat;
+  mix-blend-mode: var(--blending);
+
+  transform: translate(100%,500%);
+  background: #FF7732;
+  animation:  floatInAir   30s ease infinite;
+  opacity: 0.1;
+  z-index: 80;
+  border-radius: 500px;
+}
+
+
+
+.interactive {
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 50%) no-repeat;
+  mix-blend-mode: var(--blending);
+
+  background: #5F92FF;
+  animation:  floatInAir   30s ease infinite;
+  opacity: 0.1;
+  z-index: 80;
+  border-radius: 500px;
+}
+.designblur{
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 50%) no-repeat;
+  mix-blend-mode: var(--blending);
+ 
+  background: #FF7732;
+  animation: moveHorizontalZigzag   30s ease infinite;
+  opacity: 0.6;
+  z-index: 80;
+  border-radius: 500px;
+}

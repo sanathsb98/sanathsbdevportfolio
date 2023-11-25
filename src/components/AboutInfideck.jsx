@@ -12,7 +12,7 @@ const AboutInfideck = () => {
             </div>
 
           <div className='infideck-work'>
-           
+        
               <div className='infi-work-title '>Design</div>
               <div className='infi-work-des'>We are creatives at heart. We go beyond conventional design, crafting websites that seamlessly merge beauty with functionality.</div>
               <div className='infi-work-learnmore'>

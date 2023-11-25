@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './pages/Footer';
@@ -6,7 +5,7 @@ import Home from './pages/Home';
 import Lenis from '@studio-freight/lenis';
 
 function App() {
-  const [count, setCount] = useState(0)
+
   const lenis = new Lenis()
 
   lenis.on('scroll', (e) => {
