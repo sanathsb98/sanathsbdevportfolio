@@ -5,6 +5,7 @@ import AboutInfideck from '../components/AboutInfideck';
 import ServicesWeOffer from '../components/ServicesWeOffer';
 import sphere from '../images/sphere.gif';
 import { Typewriter } from 'react-simple-typewriter';
+import maskvideo from '../images/maskvideo.mp4';
 
 
 const Home = () => {
@@ -20,9 +21,10 @@ const Home = () => {
                     <div className='intro-content-texts'>
 
                         <div className='intro-texts'>
-                            <div>Crafting Digital</div>
-                            <div>Experiences that</div>
-                            <div>Matters</div>
+                            <video className='intro-video' autoPlay muted loop src={maskvideo} style={{ width: '100%', height: 'auto' ,position:'absolute'}} type='video/mp4' />
+                            <div className='intro-txt'>Crafting Digital</div>
+                            <div className='intro-txt'>Experiences that</div>
+                            <div className='intro-txt'>Matter</div>
                         </div>
 
                         <div className='intro-content-slogans'>
