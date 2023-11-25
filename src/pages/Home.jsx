@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import fluidGlass from '../images/fluidGlass.png'
 import AboutInfideck from '../components/AboutInfideck';
 import ServicesWeOffer from '../components/ServicesWeOffer';
+import sphere from '../images/sphere.gif'
 
 const Home = () => {
   return (
@@ -39,7 +40,8 @@ const Home = () => {
 
                   </div>
                   <div className='intro-content-image'>
-                      <img style={{ backgroundSize: 'contain', width: '100%', height: 'auto' }} src={fluidGlass} />
+                      <img style={{ backgroundSize: 'cover', width: '90%', height: 'auto' }} src={sphere} />
+                      {/* <spline-viewer url="https://prod.spline.design/x1rxbrh5r6v0w0wK/scene.splinecode"></spline-viewer> */}
                   </div>
               </div>
           </div>
