@@ -15,7 +15,9 @@ const Home = () => {
 
     return (
         <div className='home-page'>
-
+    <div className='gradient-bg'>
+                    <div className='interactive'></div>
+                </div>
             <div className='home-intro-section'>
 
 
@@ -23,9 +25,7 @@ const Home = () => {
 
                 <div className='intro-content-space'>
 
-                {/* <div className='gradient-bg'> */}
-                  
-                {/* </div> */}
+            
                 
 
                     <div className='intro-content-texts'>
@@ -40,7 +40,7 @@ const Home = () => {
                             <video className='intro-video' autoPlay muted loop src={maskvideo} style={{ width: '100%', height: 'auto', position: 'absolute' }} type='video/mp4' />
                             <div className='intro-txt'>Crafting Digital</div>
                             <div className='intro-txt'>Experiences that</div>
-                            <div className='intro-txt'>Matter</div>
+                            <div className='intro-txt'>Matters</div>
                         </div>
 
                         <div className='intro-content-slogans'>

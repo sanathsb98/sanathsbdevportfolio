@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import infideckLogo from '../images/infideckLogo.png'
+import infideckLogo from '../images/infideckLogo.svg'
 
 const Navbar = () => {
     return (

@@ -52,17 +52,24 @@
     font-family: 'Manrope', sans-serif;
 
 font-style: normal;
-font-weight: 500;
+font-weight: 100;
 /* line-height: 100px; */
 
 position: relative;
 opacity: 10;
+background-color: white;
 
 
 }
 .intro-txt{
-    background: #fff;
-    mix-blend-mode: screen;
+    
+  background-color: white;
+  mix-blend-mode: screen;
+    position: 'absolute';
+    
+   
+    
+   
 }
 .blur-circle-one {
     position: absolute;
@@ -135,7 +142,14 @@ opacity: 10;
     padding: 50px 0px 0px 0px;
 }
 
-
+.intro-video{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+    transform: translate3d(0,0,0);
+}
 
 
 
@@ -202,11 +216,13 @@ opacity: 10;
   /* mobile view */
   @media only screen and (min-width: 0px) and (max-width: 415px) {
     .intro-video {
-     display: none;
+     /* display: none; */
+     
     }
     .intro-txt{
   
-        mix-blend-mode:normal;
+        /* mix-blend-mode:normal; */
+      
     }
     .intro-texts {
      
@@ -231,5 +247,9 @@ opacity: 10;
        flex-direction: column;
         
     }
+    .about-our-infideck{
+       margin-top: 40px;
+    }
+  
     
   }

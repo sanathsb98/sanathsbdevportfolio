@@ -15,6 +15,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 @keyframes moveInZigzag {
@@ -138,7 +139,7 @@
 
   background: #5F92FF;
   animation:  floatInAir   30s ease infinite;
-  opacity: 0.1;
+  opacity: 2;
   z-index: 80;
   border-radius: 500px;
 }
