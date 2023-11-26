@@ -3,5 +3,6 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-   
+    -webkit-margin-before: 0; /* Specific to Chrome */
+    -webkit-margin-after: 0; /* Specific to Chrome */
 }

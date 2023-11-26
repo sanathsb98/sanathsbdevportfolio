@@ -37,7 +37,7 @@ const Home = () => {
 
                            
                        
-                            <video className='intro-video' autoPlay muted loop src={maskvideo} style={{ width: '100%', height: 'auto', position: 'absolute' }} type='video/mp4' />
+                            {/* <video className='intro-video' autoPlay muted loop src={maskvideo} style={{ width: '100%', height: 'auto', position: 'absolute' }} type='video/mp4' /> */}
                             <div className='intro-txt'>Crafting Digital</div>
                             <div className='intro-txt'>Experiences that</div>
                             <div className='intro-txt'>Matters</div>

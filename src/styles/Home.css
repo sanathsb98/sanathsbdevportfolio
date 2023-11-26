@@ -61,16 +61,7 @@ background-color: white;
 
 
 }
-.intro-txt{
-    
-  background-color: white;
-  mix-blend-mode: screen;
-    position: 'absolute';
-    
-   
-    
-   
-}
+
 .blur-circle-one {
     position: absolute;
     width: 623px;
@@ -142,14 +133,6 @@ background-color: white;
     padding: 50px 0px 0px 0px;
 }
 
-.intro-video{
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    margin: 0;
-    padding: 0;
-    transform: translate3d(0,0,0);
-}
 
 
 
@@ -250,6 +233,13 @@ background-color: white;
     .about-our-infideck{
        margin-top: 40px;
     }
-  
+    .services-offer-section{
+        /* background-color: rgb(54, 105, 88); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+    }
+    
     
   }
