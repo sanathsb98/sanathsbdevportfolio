@@ -9,7 +9,7 @@
 }
 .infideck-about {
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(16px, 2vw, 44px);
+    font-size: clamp(16px, 3vw, 32px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;

@@ -198,6 +198,8 @@ opacity: 10;
         /* background-color: #cdcdcd; */
     }
   }
+
+  /* mobile view */
   @media only screen and (min-width: 0px) and (max-width: 415px) {
     .intro-video {
      display: none;
@@ -206,4 +208,28 @@ opacity: 10;
   
         mix-blend-mode:normal;
     }
+    .intro-texts {
+     
+        font-size: 36px;
+    
+    
+    }
+    .intro-content-texts {
+        width: 100%;
+    
+    }
+    .intro-content-slogans {
+       
+        font-size: 18px;
+       
+      
+    }
+    .intro-content-image {
+      width: 100%;
+    }
+    .intro-content-space {
+       flex-direction: column;
+        
+    }
+    
   }
