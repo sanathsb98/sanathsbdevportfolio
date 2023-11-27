@@ -44,7 +44,7 @@
     flex-direction: column;
    
     gap: 0px;
-    font-size: clamp(24px, 5vw, 94px);
+    font-size: clamp(28px, 5vw, 94px);
 
 
     color: #303032;
@@ -52,7 +52,7 @@
     font-family: 'Manrope', sans-serif;
 
 font-style: normal;
-font-weight: 100;
+font-weight: 600;
 /* line-height: 100px; */
 
 position: relative;
@@ -109,7 +109,7 @@ background-color: white;
 
     color: #FF7732;
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(12px,3vw,20px);
+    font-size: clamp(16px,3vw,20px);
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
