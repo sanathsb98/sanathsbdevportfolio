@@ -6,3 +6,26 @@
     -webkit-margin-before: 0; /* Specific to Chrome */
     -webkit-margin-after: 0; /* Specific to Chrome */
 }
+.containerg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20vw;
+  
+   background-color: aqua;
+ 
+  }
+
+.textg{
+  color: rgb(149, 149, 149);
+  opacity: 0.2;
+  font-size: 76px;
+  overflow: hidden;
+}
+.lineMask{
+  overflow: hidden;
+}
+.lineMask p{
+  margin: 0px;
+  font-weight: 700;
+}

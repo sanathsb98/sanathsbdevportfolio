@@ -12,6 +12,7 @@ const ServicesWeOffer = () => {
     <div className='services-we-offer'>
         <div className='services-offer-titles'>
             <div className='services-offer-title'>Services we offer</div>
+         
             <div className='services-offer-description'>Elevate your digital presence with our comprehensive suite of services. From innovative digital marketing strategies to cutting-edge web design, seamless software development, and captivating design services</div>
         </div>
         <div className='services-offer-types'>
@@ -130,5 +131,6 @@ const ServicesWeOffer = () => {
     </div>
   )
 }
+
 
 export default ServicesWeOffer

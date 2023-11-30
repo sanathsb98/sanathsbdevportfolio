@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React,{useRef,useState} from 'react';
 import '../styles/Home.css';
 import fluidGlass from '../images/fluidGlass.png'
 import AboutInfideck from '../components/AboutInfideck';
@@ -6,7 +6,15 @@ import ServicesWeOffer from '../components/ServicesWeOffer';
 import sphere from '../images/sphere.gif';
 import { Typewriter } from 'react-simple-typewriter';
 import maskvideo from '../images/maskvideo.mp4';
+import {motion} from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
+const phrases = [
+    "Crafting Digital",
+    "Experiences that",
+    "Matters",
+  ]
+  
 
 const Home = () => {
 
@@ -38,9 +46,10 @@ const Home = () => {
                            
                        
                             {/* <video className='intro-video' autoPlay muted loop src={maskvideo} style={{ width: '100%', height: 'auto', position: 'absolute' }} type='video/mp4' /> */}
-                            <div className='intro-txt'>Crafting Digital</div>
+                            {/* <div className='intro-txt'>Crafting Digital</div>
                             <div className='intro-txt'>Experiences that</div>
-                            <div className='intro-txt'>Matters</div>
+                            <div className='intro-txt'>Matters</div> */}
+                            <IntroText/>
                         </div>
 
                         <div className='intro-content-slogans'>
@@ -91,5 +100,30 @@ const Home = () => {
         </div>
     )
 }
+
+export function IntroText() {
+
+    const animation = {
+      initial: {y: "100%"},
+      enter: i => ({y: "0", transition: {duration: 0.75, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
+    }
+  
+    const { ref, inView, entry } = useInView({
+      threshold: 0.75,
+      triggerOnce: true
+    });
+  
+    return(
+      <div ref={ref} className="body">
+        {
+          phrases.map( (phrase, index) => {
+            return <div key={index} className="lineMask">
+              <motion.p custom={index} variants={animation} initial="initial" animate={inView ? "enter" : ""}>{phrase}</motion.p>
+            </div>
+          })
+        }
+      </div>
+    )
+  }
 
 export default Home
