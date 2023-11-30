@@ -81,5 +81,4 @@ export function AboutText() {
 }
 
 
-
 export default AboutInfideck
