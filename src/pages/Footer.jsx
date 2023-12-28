@@ -3,9 +3,11 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+  <>
+    {/* <div className='footer'>
       <div>Developed By Sanath SB</div>
-    </div>
+    </div> */}
+  </>
   )
 }
 

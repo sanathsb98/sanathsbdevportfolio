@@ -20,7 +20,7 @@ const AboutInfideck = () => {
           <div className='infideck-work'>
         
               <div className='infi-work-title '>Frontend Tech Stacks</div>
-              <div className='infi-work-des'>React JS, Next JS, Three JS, Framer Motion, GSAP</div>
+              <div className='infi-work-des'>React JS, Next JS, Redux, Three JS, Framer Motion, GSAP</div>
               {/* <div className='infi-work-learnmore'>
                   <div>Learn More</div>
                   <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -31,7 +31,7 @@ const AboutInfideck = () => {
 
             <div className='infideck-work'>
               <div className='infi-work-title infititle'>Backend Tech Stacks</div>
-              <div className='infi-work-des infides'>Mongo DB, Supabase, Python (Beginner), Java(Beginner) and Rest APIs</div>
+              <div className='infi-work-des infides'>Mongo DB, Supabase, My SQL, Rest APIs,  Python (Beginner) and Java(Beginner)</div>
               {/* <div className='infi-work-learnmore infilearnmore'>
                   <div>Learn More</div>
                   <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
