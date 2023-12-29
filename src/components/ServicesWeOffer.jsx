@@ -30,8 +30,8 @@ const ServicesWeOffer = () => {
                       <img src={eventsite} style={{ width: '100%', height: '100%' }} />
                   </div>
                   <div className='services-content-section'>
-                      <div className='services-title'>Event Site (Responsive UI With Vite)</div>
-                      <div className='services-des'>I developed a responsive event website using React for various screen resolutions. </div>
+                      <div className='services-title'>Event Site</div>
+                      <div className='services-des'>I developed a responsive event website using React </div>
                       <div className='services-learn-more' onClick={redirectToEventSite}>
                           <div className='sev-learnmore-txt'>Watch Live</div>
                           <div className='sev-learnmore-icon'>
@@ -47,8 +47,8 @@ const ServicesWeOffer = () => {
                       <img src={reduxsite} style={{ width: '100%', height: '100%' }} />
                   </div>
                   <div className='services-content-section'>
-                      <div className='services-title'>Redux Cart (Redux JS & My SQL)</div>
-                      <div className='services-des'>I developed a responsive redux shopping cart with mysql for the login authentication. </div>
+                      <div className='services-title'>Redux Cart</div>
+                      <div className='services-des'>I developed a responsive redux shopping cart.</div>
                       <div className='services-learn-more' onClick={redirectToReduxCart}>
                           <div className='sev-learnmore-txt'>Watch Live</div>
                           <div className='sev-learnmore-icon'>
