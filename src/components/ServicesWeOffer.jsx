@@ -11,10 +11,10 @@ import reduxsite from '../images/redux.png';
 
 const ServicesWeOffer = () => {
     const redirectToEventSite = () => {
-        window.location.href = 'https://eventsitesb.netlify.app';
+        window.location.href = 'https://eventsite.vercel.app/';
       };
       const redirectToReduxCart = () => {
-        window.location.href = 'https://reduxcartsite.netlify.app/';
+        window.location.href = 'https://reduxcartapp.vercel.app/';
       };
   return (
     <div className='services-we-offer'>
