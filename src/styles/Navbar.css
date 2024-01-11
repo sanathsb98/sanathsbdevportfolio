@@ -36,8 +36,8 @@ width: 50%;
 
 .nav-lets-talk {
     background: #FF7732;
-    padding: 6px 24px;
-
+    padding: 3px 15px;
+cursor: pointer;
     color: #FFF;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 14px;

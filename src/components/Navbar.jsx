@@ -1,8 +1,23 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import infideckLogo from '../images/infideckLogo.svg'
+import infideckLogo from '../images/infideckLogo.svg';
+import resume from '../images/sanathsbresume.pdf';
 
 const Navbar = () => {
+
+    const downloadResume = () => {
+
+    const resumePath = resume;
+    const anchor = document.createElement('a');
+    anchor.style.display = 'none';
+    document.body.appendChild(anchor);
+    anchor.href = resumePath;
+    anchor.download = 'sanathsb.pdf';
+    anchor.click();
+    document.body.removeChild(anchor);
+       
+    }
+
     return (
         <div className='navabar'>
      
@@ -15,7 +30,7 @@ const Navbar = () => {
                 <div className='nav-btn'>Plans</div>
                 <div className='nav-btn'>Contact</div> */}
             </div>
-            {/* <div className='nav-lets-talk'>Let's Talk</div> */}
+            <div onClick={downloadResume} className='nav-lets-talk'>Resume</div>
         </div>
          
         </div>
